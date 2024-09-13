@@ -42,9 +42,9 @@ merge_images(src_folder, dest_folder, record_file)
 To use the script, you will need the path to the record file, the folder where the consolidated images are stored, and the output folder where the original directory structure should be restored.
 
 ```python
-record_file = r"C:\Users\yuesen\Desktop\record_file.txt"  # Path to the record file
-images_folder = r"D:\edgedownload\weiman_download"  # Folder containing all images
-output_folder = r"C:\Users\yuesen\Desktop\weiman1111"  # Output folder path
+record_file = r"C:\Users\yuesen\Desktop\Path to the record file.txt"  # Path to the record file
+images_folder = r"D:\edgedownload\Folder containing all images"  # Folder containing all images
+output_folder = r"C:\Users\yuesen\Desktop\Output folder path"  # Output folder path
 
 restore_folders(record_file, images_folder, output_folder)
 ```
